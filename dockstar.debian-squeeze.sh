@@ -285,14 +285,14 @@ fi
 
 
 # Get the uBoot install script
-if [ ! -f /tmp/install_uboot_mtd0.sh ]
-then
-  wget -P /tmp $URL_UBOOT
-  chmod +x /tmp/install_uboot_mtd0.sh
-fi
+#if [ ! -f /tmp/install_uboot_mtd0.sh ]
+#then
+#  wget -P /tmp $URL_UBOOT
+#  chmod +x /tmp/install_uboot_mtd0.sh
+#fi
 
-echo "Installing Bootloader"
-/tmp/install_uboot_mtd0.sh --noprompt
+#echo "Installing Bootloader"
+#/tmp/install_uboot_mtd0.sh --noprompt
 
 
 ##########
